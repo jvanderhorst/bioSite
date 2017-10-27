@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    max-width: 1500px;
+    max-width: ;
     margin: 0 auto;
     position: relative;
 }
@@ -43,6 +43,12 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-size: 1.25em;
+    padding: 0;
+    margin: 0;
+}
+
 
 
 header {
@@ -67,10 +73,7 @@ nav {
     font-size: 1.25em;
     width: 100%;
     text-align: center;
-    background-color: #868991;
-    
-
-   
+    background-color: #151c3e;
 }
 
 
@@ -81,9 +84,12 @@ nav li {
 }
 
 nav ul li a {
+    transition: 0.4s;
     color: #fff;
+    font-size: 20px;
     text-decoration: none;
-    margin: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
    
 }
 
@@ -92,53 +98,67 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    color: #71beea;
-    background-color: #151c3e;
+    background-color: #71beea;
+    color: #151c3e;
     padding: 20px 10px;
-    margin: 10px;
 
     
 }
 
-#about {
+#page {
     overflow: auto;
+    max-width: 1500px ;
+    margin: 0 auto;
+    position: relative;
 }
 
-#about img {
+figure {
+    display: inline-block;
+    margin: 20px;
     float: left;
-    margin-right: 20px;
 }
+
+figure img {
+    vertical-align: top;
+    width: 500px;
+}
+
+figure figcaption {
+     width: 500px;
+   /* background-color: rgba(134, 137, 145, .25);*/
+    font-size: .80em;
+}
+
+
+
+#about {
+    overflow: auto;
+    
+}
+
+
 
 #about .content {
     
 }
 
-#interests {
+#places {
     width: 100%;
-    overflow: auto;
-}
-
-.column1of2 {
-    float: left;
-    margin: 10px 0;
-    padding: 10px;
     background-color: #71beea;
-    color: #151c3e;
-    height: 290px;
+    padding: 10px 10px;
+    overflow: auto;
+
 }
 
-.column2of2 {
-    float: left;
-    margin: 10px 0;
+#places img {
+    width: 700px;
+   
+    
 }
 
-
-
-
-
-
-
-
+#interests {
+       
+}
 
 footer {
     background-color: #151c3e;
@@ -147,8 +167,6 @@ footer {
    
 }
 
-
-
 footer ul li {
     list-style: none;
 }
@@ -156,8 +174,6 @@ footer ul li {
 footer ul li a {
     color: #71beea;
     text-decoration: none;
-   
-    
 }
 
 .box{
@@ -173,24 +189,3 @@ footer ul li a {
 }
 
 
-.purple{
-    color: #71beea;
-	background: #151c3e;
-}
-.blue{
-    color: #151c3e;
-	background: #71beea;
-}
-.gray{
-    color: #fff;
-	background: #868991;
-}
-
-
-.archivo p {
-    font-family: 'Archivo', sans-serif;
-}
-
-.noto-serif h3 {
-    font-family: 'Noto Serif', serif;
-}
