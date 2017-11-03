@@ -1,10 +1,21 @@
+
+/* Color Palette 
+#71beea - light blue
+#151c3e - dark purple
+*/
+
+/* main body styles */
+html, body {
+    height: 100%;
+}
+
 body {
     font-size: 16px;  
     font-family: 'Archivo', sans-serif;
 }
 
 #container {
-    max-width: ;
+    height: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -14,13 +25,10 @@ p {
     color: #000;
     font-weight: 400;
     line-height: 1.4em;
-    
 }
-
 
 h1, h2, h3 {
     font-family: 'Archivo', sans-serif;
-    
 }
 
 h1 {
@@ -49,24 +57,26 @@ h4 {
     margin: 0;
 }
 
-
-
+/* header */
 header {
-    color: #151c3e;
-	padding: 10px 20px;
-    height: 5em;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 50%;
     position: relative;
-    
-    
 }
-
-
 
 header h1 {
-   text-align: center;
-    color: #151c3e;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-40%, -25%);
+    font-size: 9.313em;
 }
 
+/* navigation */
 nav {
     display: inline-block;
     color: #71beea;
@@ -76,11 +86,8 @@ nav {
     background-color: #151c3e;
 }
 
-
-
 nav li {
     display: inline-block;
-   
 }
 
 nav ul li a {
@@ -90,7 +97,6 @@ nav ul li a {
     text-decoration: none;
     padding: 0 10px;
     margin: 0 10px;
-   
 }
 
 nav ul li a:visited {
@@ -101,10 +107,9 @@ nav ul li a:hover {
     background-color: #71beea;
     color: #151c3e;
     padding: 20px 10px;
-
-    
 }
 
+/* page container with max width 1500px */
 #page {
     overflow: auto;
     max-width: 1500px ;
@@ -112,6 +117,7 @@ nav ul li a:hover {
     position: relative;
 }
 
+/* figure styling */
 figure {
     display: inline-block;
     margin: 20px;
@@ -125,46 +131,54 @@ figure img {
 
 figure figcaption {
      width: 500px;
-   /* background-color: rgba(134, 137, 145, .25);*/
-    font-size: .80em;
+     font-size: .80em;
 }
 
-
-
+/* main content */
 #about {
     overflow: auto;
-    
-}
-
-
-
-#about .content {
-    
 }
 
 #places {
-    width: 100%;
     background-color: #71beea;
     padding: 10px 10px;
     overflow: auto;
-
 }
 
 #places img {
-    width: 700px;
-   
-    
+    width: 100%;
 }
 
-#interests {
-       
+#interests li {
+   list-style: none;
 }
 
+#interests a {
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: #151c3e;
+}
+
+#interests a:visited {
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: #151c3e;
+}
+
+#interests a:hover {
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: #BF1B14;
+}
+
+/* footer */
 footer {
     background-color: #151c3e;
     color: #71beea;
     padding: 10px;
-   
 }
 
 footer ul li {
@@ -176,16 +190,6 @@ footer ul li a {
     text-decoration: none;
 }
 
-.box{
-    font-family: 'Archivo', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-	width: 100px;
-	height: 100px;
-    text-align: center;
-    display: inline-block;
-    margin: 10px;
-    padding-top: 10px;
-}
+
 
 
