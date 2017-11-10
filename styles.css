@@ -112,45 +112,81 @@ nav ul li a:hover {
 /* page container with max width 1500px */
 #page {
     overflow: auto;
-    max-width: 1500px ;
+    max-width: 1350px;
     margin: 0 auto;
     position: relative;
 }
 
 /* figure styling */
 figure {
-    display: inline-block;
-    margin: 20px;
-    float: left;
+   
+   
+
 }
 
 figure img {
-    vertical-align: top;
-    width: 500px;
+    vertical-align: ;
+    width: ;
 }
 
 figure figcaption {
-     width: 500px;
+     width: ;
      font-size: .80em;
 }
 
 /* main content */
+.content {
+    margin: 20px;
+}
+
 #about {
     overflow: auto;
+     
+}
+
+#about figure {
+    float: left;
+}
+
+#photo figure img {
+   height: 300px;
+}
+
+#photo figure {
+    display: inline-block;    
 }
 
 #places {
     background-color: #71beea;
     padding: 10px 10px;
     overflow: auto;
+    align-content: center;
+    
+}
+
+#places h3 {
+    text-align: center;
+}
+
+aside {
+    float: right;
+    width: 25%;
 }
 
 #places img {
     width: 100%;
 }
 
+#interests {
+    overflow: auto;
+}
+
 #interests li {
    list-style: none;
+}
+
+#interests {
+    
 }
 
 #interests a {
