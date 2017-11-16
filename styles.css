@@ -118,20 +118,8 @@ nav ul li a:hover {
 }
 
 /* figure styling */
-figure {
-   
-   
-
-}
-
-figure img {
-    vertical-align: ;
-    width: ;
-}
-
 figure figcaption {
-     width: ;
-     font-size: .80em;
+    font-size: .80em;
 }
 
 /* main content */
@@ -141,7 +129,6 @@ figure figcaption {
 
 #about {
     overflow: auto;
-     
 }
 
 #about figure {
@@ -161,7 +148,6 @@ figure figcaption {
     padding: 10px 10px;
     overflow: auto;
     align-content: center;
-    
 }
 
 #places h3 {
@@ -183,10 +169,6 @@ aside {
 
 #interests li {
    list-style: none;
-}
-
-#interests {
-    
 }
 
 #interests a {
